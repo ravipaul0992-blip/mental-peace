@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SereneMind - Find Your Inner Peace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">&#9775;</span> SereneMind
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#techniques">Techniques</a></li>
+                <li><a href="#breathing">Breathing</a></li>
+                <li><a href="#journal">Journal</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-particles" id="particles"></div>
+        <div class="container hero-content">
+            <p class="hero-tagline">Welcome to your safe space</p>
+            <h1 class="hero-title">Find Your <span class="gradient-text">Inner Peace</span></h1>
+            <p class="hero-subtitle">
+                You are not alone. Millions face anxiety every day. Here you'll find gentle tools,
+                calming techniques, and compassionate guidance to help you navigate through difficult moments.
+            </p>
+            <div class="hero-buttons">
+                <a href="#breathing" class="btn btn-primary">Start Breathing Exercise</a>
+                <a href="#techniques" class="btn btn-outline">Explore Techniques</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="280">0</span><span class="stat-suffix">M+</span>
+                    <span class="stat-label">People face anxiety globally</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="85">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Feel better with daily practice</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="10">0</span><span class="stat-suffix"> min</span>
+                    <span class="stat-label">A day can transform your life</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Understanding Anxiety</span>
+                <h2 class="section-title">It's Okay to Not Be Okay</h2>
+                <p class="section-subtitle">Anxiety is your body's natural response to stress. Understanding it is the first step toward managing it.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up">
+                    <div class="about-icon">&#129504;</div>
+                    <h3>What is Anxiety?</h3>
+                    <p>Anxiety is a feeling of worry, nervousness, or unease about something with an uncertain outcome. It's a normal human emotion that becomes a concern when it's persistent and overwhelming.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="100">
+                    <div class="about-icon">&#128154;</div>
+                    <h3>You're Not Alone</h3>
+                    <p>Over 280 million people worldwide experience anxiety disorders. It's one of the most common mental health conditions, and there's absolutely no shame in seeking help.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="200">
+                    <div class="about-icon">&#127793;</div>
+                    <h3>Recovery is Possible</h3>
+                    <p>With the right tools, support, and practice, anxiety can be managed effectively. Small daily steps lead to remarkable transformation over time.</p>
+                </div>
+            </div>
+
+            <!-- Symptoms Awareness -->
+            <div class="symptoms-section">
+                <h3 class="symptoms-title">Common Signs of Anxiety</h3>
+                <p class="symptoms-note">Recognizing these signs is an act of self-awareness, not weakness.</p>
+                <div class="symptoms-grid">
+                    <div class="symptom-item"><span class="symptom-dot"></span> Persistent worry or fear</div>
+                    <div class="symptom-item"><span class="symptom-dot"></span> Restlessness or feeling on edge</div>
+                    <div class="symptom-item"><span class="symptom-dot"></span> Difficulty concentrating</div>
+                    <div class="symptom-item"><span class="symptom-dot"></span> Sleep disturbances</div>
+                    <div class="symptom-item"><span class="symptom-dot"></span> Rapid heartbeat</div>
+                    <div class="symptom-item"><span class="symptom-dot"></span> Muscle tension</div>
+                    <div class="symptom-item"><span class="symptom-dot"></span> Avoidance of triggers</div>
+                    <div class="symptom-item"><span class="symptom-dot"></span> Irritability</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Techniques Section -->
+    <section class="section techniques" id="techniques">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Coping Strategies</span>
+                <h2 class="section-title">Techniques That Heal</h2>
+                <p class="section-subtitle">Evidence-based practices to help you find calm in the storm.</p>
+            </div>
+            <div class="techniques-grid">
+                <div class="technique-card">
+                    <div class="technique-number">01</div>
+                    <div class="technique-icon">&#128524;</div>
+                    <h3>Mindful Meditation</h3>
+                    <p>Focus on the present moment without judgment. Start with just 5 minutes a day and gradually increase.</p>
+                    <div class="technique-steps">
+                        <span>Find a quiet spot</span>
+                        <span>Close your eyes</span>
+                        <span>Focus on breath</span>
+                        <span>Let thoughts pass</span>
+                    </div>
+                </div>
+                <div class="technique-card">
+                    <div class="technique-number">02</div>
+                    <div class="technique-icon">&#127939;</div>
+                    <h3>Physical Movement</h3>
+                    <p>Exercise releases endorphins, your body's natural mood elevator. Even a 15-minute walk can reduce anxiety.</p>
+                    <div class="technique-steps">
+                        <span>Morning walks</span>
+                        <span>Gentle yoga</span>
+                        <span>Stretching</span>
+                        <span>Dance freely</span>
+                    </div>
+                </div>
+                <div class="technique-card">
+                    <div class="technique-number">03</div>
+                    <div class="technique-icon">&#9997;&#65039;</div>
+                    <h3>Journaling</h3>
+                    <p>Writing down your thoughts helps process emotions and identify patterns in your anxiety triggers.</p>
+                    <div class="technique-steps">
+                        <span>Write freely</span>
+                        <span>No judgment</span>
+                        <span>Track patterns</span>
+                        <span>Celebrate wins</span>
+                    </div>
+                </div>
+                <div class="technique-card">
+                    <div class="technique-number">04</div>
+                    <div class="technique-icon">&#127807;</div>
+                    <h3>Grounding (5-4-3-2-1)</h3>
+                    <p>Use your senses to anchor yourself in the present when anxiety feels overwhelming.</p>
+                    <div class="technique-steps">
+                        <span>5 things you see</span>
+                        <span>4 things you touch</span>
+                        <span>3 things you hear</span>
+                        <span>2 you smell, 1 taste</span>
+                    </div>
+                </div>
+                <div class="technique-card">
+                    <div class="technique-number">05</div>
+                    <div class="technique-icon">&#128516;</div>
+                    <h3>Positive Affirmations</h3>
+                    <p>Replace negative self-talk with compassionate, empowering statements about yourself.</p>
+                    <div class="technique-steps">
+                        <span>I am enough</span>
+                        <span>This will pass</span>
+                        <span>I am safe</span>
+                        <span>I choose peace</span>
+                    </div>
+                </div>
+                <div class="technique-card">
+                    <div class="technique-number">06</div>
+                    <div class="technique-icon">&#127769;</div>
+                    <h3>Sleep Hygiene</h3>
+                    <p>Quality sleep is foundational to mental health. Create a calming bedtime routine.</p>
+                    <div class="technique-steps">
+                        <span>Consistent schedule</span>
+                        <span>No screens before bed</span>
+                        <span>Cool dark room</span>
+                        <span>Relaxing ritual</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breathing Exercise Section -->
+    <section class="section breathing" id="breathing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Interactive Tool</span>
+                <h2 class="section-title">Guided Breathing Exercise</h2>
+                <p class="section-subtitle">Follow the circle. Breathe in as it expands, hold, then breathe out as it contracts.</p>
+            </div>
+            <div class="breathing-app">
+                <div class="breathing-pattern-selector">
+                    <button class="pattern-btn active" data-inhale="4" data-hold="4" data-exhale="4">Box Breathing<br><small>4-4-4</small></button>
+                    <button class="pattern-btn" data-inhale="4" data-hold="7" data-exhale="8">4-7-8 Relaxing<br><small>4-7-8</small></button>
+                    <button class="pattern-btn" data-inhale="5" data-hold="0" data-exhale="5">Simple Calm<br><small>5-0-5</small></button>
+                </div>
+                <div class="breathing-circle-container">
+                    <div class="breathing-outer-ring"></div>
+                    <div class="breathing-circle" id="breathCircle">
+                        <span class="breath-text" id="breathText">Press Start</span>
+                        <span class="breath-timer" id="breathTimer"></span>
+                    </div>
+                </div>
+                <div class="breathing-controls">
+                    <button class="btn btn-primary" id="breathStart">Start Breathing</button>
+                    <button class="btn btn-outline" id="breathStop" style="display:none;">Stop</button>
+                </div>
+                <div class="breath-counter">
+                    <span>Completed cycles: <strong id="cycleCount">0</strong></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Affirmation -->
+    <section class="section affirmation">
+        <div class="container">
+            <div class="affirmation-card">
+                <span class="affirmation-label">Today's Affirmation</span>
+                <p class="affirmation-text" id="affirmationText">"You are stronger than your anxiety. This moment will pass, and you will be okay."</p>
+                <button class="btn btn-outline" id="newAffirmation">New Affirmation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mood Tracker / Journal Section -->
+    <section class="section journal" id="journal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Self-Reflection</span>
+                <h2 class="section-title">Mood Journal</h2>
+                <p class="section-subtitle">Track your feelings. Your entries stay private in your browser.</p>
+            </div>
+            <div class="journal-app">
+                <div class="mood-selector">
+                    <p class="mood-question">How are you feeling right now?</p>
+                    <div class="mood-options">
+                        <button class="mood-btn" data-mood="great" title="Great">&#128522;<span>Great</span></button>
+                        <button class="mood-btn" data-mood="good" title="Good">&#128578;<span>Good</span></button>
+                        <button class="mood-btn" data-mood="okay" title="Okay">&#128528;<span>Okay</span></button>
+                        <button class="mood-btn" data-mood="low" title="Low">&#128533;<span>Low</span></button>
+                        <button class="mood-btn" data-mood="anxious" title="Anxious">&#128560;<span>Anxious</span></button>
+                    </div>
+                </div>
+                <div class="journal-entry">
+                    <textarea id="journalText" placeholder="Write your thoughts here... What triggered this feeling? What might help you feel better?" rows="5"></textarea>
+                    <button class="btn btn-primary" id="saveJournal">Save Entry</button>
+                </div>
+                <div class="journal-history" id="journalHistory">
+                    <h4>Recent Entries</h4>
+                    <div id="journalEntries"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calming Sounds -->
+    <section class="section sounds">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Ambient Sounds</span>
+                <h2 class="section-title">Calming Soundscapes</h2>
+                <p class="section-subtitle">Click to play gentle sounds that help calm your mind.</p>
+            </div>
+            <div class="sounds-grid">
+                <button class="sound-card" data-sound="rain">
+                    <div class="sound-icon">&#127783;&#65039;</div>
+                    <span>Rain</span>
+                    <div class="sound-wave"><span></span><span></span><span></span><span></span><span></span></div>
+                </button>
+                <button class="sound-card" data-sound="ocean">
+                    <div class="sound-icon">&#127754;</div>
+                    <span>Ocean Waves</span>
+                    <div class="sound-wave"><span></span><span></span><span></span><span></span><span></span></div>
+                </button>
+                <button class="sound-card" data-sound="forest">
+                    <div class="sound-icon">&#127795;</div>
+                    <span>Forest</span>
+                    <div class="sound-wave"><span></span><span></span><span></span><span></span><span></span></div>
+                </button>
+                <button class="sound-card" data-sound="wind">
+                    <div class="sound-icon">&#127788;&#65039;</div>
+                    <span>Gentle Wind</span>
+                    <div class="sound-wave"><span></span><span></span><span></span><span></span><span></span></div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotes Carousel -->
+    <section class="section quotes">
+        <div class="container">
+            <div class="quotes-carousel">
+                <button class="quote-nav quote-prev" id="quotePrev">&#8592;</button>
+                <div class="quote-content">
+                    <div class="quote-mark">&#8220;</div>
+                    <p class="quote-text" id="quoteText">You don't have to control your thoughts. You just have to stop letting them control you.</p>
+                    <span class="quote-author" id="quoteAuthor">- Dan Millman</span>
+                </div>
+                <button class="quote-nav quote-next" id="quoteNext">&#8594;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="section resources" id="resources">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get Help</span>
+                <h2 class="section-title">Helpful Resources</h2>
+                <p class="section-subtitle">Professional support is a sign of strength, not weakness.</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card emergency">
+                    <div class="resource-icon">&#128680;</div>
+                    <h3>Crisis Helpline</h3>
+                    <p>If you're in immediate distress, please reach out.</p>
+                    <div class="resource-contact">
+                        <strong>988 Suicide & Crisis Lifeline</strong>
+                        <span>Call or text: <a href="tel:988">988</a></span>
+                        <span>Available 24/7</span>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">&#128222;</div>
+                    <h3>SAMHSA Helpline</h3>
+                    <p>Free, confidential treatment referrals and information.</p>
+                    <div class="resource-contact">
+                        <strong>1-800-662-4357</strong>
+                        <span>Free & Confidential</span>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">&#128172;</div>
+                    <h3>Crisis Text Line</h3>
+                    <p>Text-based support when you need someone to talk to.</p>
+                    <div class="resource-contact">
+                        <strong>Text HOME to 741741</strong>
+                        <span>Free 24/7 Support</span>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">&#127760;</div>
+                    <h3>Online Therapy</h3>
+                    <p>Connect with licensed therapists from the comfort of your home.</p>
+                    <div class="resource-links">
+                        <span>BetterHelp</span>
+                        <span>Talkspace</span>
+                        <span>7 Cups</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="self-care-checklist">
+                <h3>Daily Self-Care Checklist</h3>
+                <div class="checklist-items">
+                    <label class="checklist-item">
+                        <input type="checkbox" id="check1"> <span class="checkmark"></span> Drank enough water today
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox" id="check2"> <span class="checkmark"></span> Moved my body for at least 15 minutes
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox" id="check3"> <span class="checkmark"></span> Took deep breaths when feeling stressed
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox" id="check4"> <span class="checkmark"></span> Reached out to someone I trust
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox" id="check5"> <span class="checkmark"></span> Practiced gratitude
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox" id="check6"> <span class="checkmark"></span> Went outside and felt fresh air
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox" id="check7"> <span class="checkmark"></span> Did something that made me smile
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Reach Out</span>
+                <h2 class="section-title">We're Here For You</h2>
+                <p class="section-subtitle">Have questions or feedback? We'd love to hear from you.</p>
+            </div>
+            <div class="contact-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option value="">How can we help?</option>
+                            <option>General Inquiry</option>
+                            <option>Suggest a Resource</option>
+                            <option>Share Your Story</option>
+                            <option>Partnership</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your message..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-quote">
+                        <p>"The greatest glory in living lies not in never falling, but in rising every time we fall."</p>
+                        <span>- Nelson Mandela</span>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">&#128231;</span>
+                            <span>hello@serenemind.org</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">&#128205;</span>
+                            <span>A safe space on the internet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo"><span class="logo-icon">&#9775;</span> SereneMind</a>
+                    <p>A gentle space for those navigating anxiety and seeking mental peace. You matter.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#about">About Anxiety</a>
+                    <a href="#techniques">Techniques</a>
+                    <a href="#breathing">Breathing</a>
+                    <a href="#resources">Resources</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <a href="#contact">Contact Us</a>
+                    <a href="#journal">Mood Journal</a>
+                    <a href="#resources">Crisis Help</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SereneMind. Made with care for your wellbeing.</p>
+                <p class="disclaimer">This website is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Calm Button -->
+    <button class="calm-btn" id="calmBtn" title="Quick calm exercise">
+        <span>&#9775;</span>
+    </button>
+
+    <!-- Calm Modal -->
+    <div class="calm-modal" id="calmModal">
+        <div class="calm-modal-content">
+            <button class="calm-modal-close" id="calmClose">&times;</button>
+            <h3>Quick Grounding Exercise</h3>
+            <p>Take a moment. Look around and find:</p>
+            <div class="grounding-steps">
+                <div class="ground-step active" data-step="1">
+                    <span class="ground-number">5</span>
+                    <span>things you can <strong>SEE</strong></span>
+                </div>
+                <div class="ground-step" data-step="2">
+                    <span class="ground-number">4</span>
+                    <span>things you can <strong>TOUCH</strong></span>
+                </div>
+                <div class="ground-step" data-step="3">
+                    <span class="ground-number">3</span>
+                    <span>things you can <strong>HEAR</strong></span>
+                </div>
+                <div class="ground-step" data-step="4">
+                    <span class="ground-number">2</span>
+                    <span>things you can <strong>SMELL</strong></span>
+                </div>
+                <div class="ground-step" data-step="5">
+                    <span class="ground-number">1</span>
+                    <span>thing you can <strong>TASTE</strong></span>
+                </div>
+            </div>
+            <button class="btn btn-primary" id="groundNext">Next Step</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
