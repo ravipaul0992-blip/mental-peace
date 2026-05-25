@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - SereneMind | Mental Health & Anxiety Articles</title>
+    <meta name="description" content="Read helpful articles on managing anxiety, finding inner peace, mindfulness techniques, and mental wellness tips.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&#9775;</span> SereneMind
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#techniques">Techniques</a></li>
+                <li><a href="index.html#breathing">Breathing</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="index.html#resources">Resources</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Hero -->
+    <section class="blog-hero">
+        <div class="container">
+            <span class="section-tag">Our Blog</span>
+            <h1 class="section-title">Articles for Your <span class="gradient-text">Peace of Mind</span></h1>
+            <p class="section-subtitle">Evidence-based insights, practical tips, and gentle guidance for navigating anxiety and finding calm.</p>
+        </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">All Articles</button>
+                <button class="category-tab" data-category="anxiety">Anxiety</button>
+                <button class="category-tab" data-category="mindfulness">Mindfulness</button>
+                <button class="category-tab" data-category="sleep">Sleep</button>
+                <button class="category-tab" data-category="self-care">Self-Care</button>
+                <button class="category-tab" data-category="techniques">Techniques</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="blog-featured">
+        <div class="container">
+            <a href="articles/understanding-anxiety.html" class="featured-card">
+                <div class="featured-image">
+                    <div class="featured-placeholder">&#129504;</div>
+                </div>
+                <div class="featured-content">
+                    <span class="blog-tag">Featured</span>
+                    <h2>Understanding Anxiety: What Your Brain Is Trying to Tell You</h2>
+                    <p>Anxiety isn't your enemy - it's your brain's alarm system working overtime. Learn what causes anxiety, how it manifests in your body, and the first steps toward managing it effectively.</p>
+                    <div class="blog-meta">
+                        <span class="blog-date">May 25, 2026</span>
+                        <span class="blog-read">8 min read</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="blog-grid-section">
+        <div class="container">
+            <div class="blog-grid">
+
+                <a href="articles/calm-anxiety-at-night.html" class="blog-card" data-category="anxiety">
+                    <div class="blog-card-image"><div class="blog-placeholder">&#127769;</div></div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Anxiety</span>
+                        <h3>How to Calm Anxiety at Night: 7 Techniques That Actually Work</h3>
+                        <p>Racing thoughts keeping you awake? These proven nighttime strategies can help quiet your mind and ease you into restful sleep.</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">May 23, 2026</span>
+                            <span class="blog-read">6 min read</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="articles/breathing-exercises-beginners.html" class="blog-card" data-category="techniques">
+                    <div class="blog-card-image"><div class="blog-placeholder">&#128524;</div></div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Techniques</span>
+                        <h3>5-Minute Breathing Exercises for Complete Beginners</h3>
+                        <p>You don't need experience to start breathing exercises. Here are simple techniques you can practice anywhere, anytime.</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">May 20, 2026</span>
+                            <span class="blog-read">5 min read</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="articles/grounding-techniques-panic.html" class="blog-card" data-category="techniques">
+                    <div class="blog-card-image"><div class="blog-placeholder">&#127807;</div></div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Techniques</span>
+                        <h3>Grounding Techniques for Panic Attacks: Your Emergency Toolkit</h3>
+                        <p>When panic strikes, these grounding techniques can bring you back to the present moment and help you regain control.</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">May 18, 2026</span>
+                            <span class="blog-read">7 min read</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="articles/morning-routine-anxiety.html" class="blog-card" data-category="self-care">
+                    <div class="blog-card-image"><div class="blog-placeholder">&#127773;</div></div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Self-Care</span>
+                        <h3>The Perfect Morning Routine for People With Anxiety</h3>
+                        <p>How you start your morning sets the tone for your entire day. Build a gentle routine that calms instead of overwhelms.</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">May 15, 2026</span>
+                            <span class="blog-read">6 min read</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="articles/mindfulness-meditation-guide.html" class="blog-card" data-category="mindfulness">
+                    <div class="blog-card-image"><div class="blog-placeholder">&#128374;</div></div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Mindfulness</span>
+                        <h3>Mindfulness Meditation: A Beginner's Guide to Finding Stillness</h3>
+                        <p>Meditation doesn't mean emptying your mind. Learn what mindfulness really is and how to start a practice that sticks.</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">May 12, 2026</span>
+                            <span class="blog-read">7 min read</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="articles/sleep-hygiene-tips.html" class="blog-card" data-category="sleep">
+                    <div class="blog-card-image"><div class="blog-placeholder">&#128164;</div></div>
+                    <div class="blog-card-content">
+                        <span class="blog-tag">Sleep</span>
+                        <h3>10 Sleep Hygiene Tips for a Restful Night</h3>
+                        <p>Quality sleep is the foundation of mental health. Transform your nights with these science-backed sleep habits.</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">May 10, 2026</span>
+                            <span class="blog-read">5 min read</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="blog-newsletter">
+        <div class="container">
+            <div class="newsletter-card">
+                <h2>Get Weekly Peace in Your Inbox</h2>
+                <p>Join our community and receive gentle reminders, new articles, and calming tips every week.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <span class="newsletter-note">No spam, ever. Unsubscribe anytime.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo"><span class="logo-icon">&#9775;</span> SereneMind</a>
+                    <p>A gentle space for those navigating anxiety and seeking mental peace. You matter.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="index.html#about">About Anxiety</a>
+                    <a href="index.html#techniques">Techniques</a>
+                    <a href="index.html#breathing">Breathing</a>
+                    <a href="index.html#resources">Resources</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <a href="index.html#contact">Contact Us</a>
+                    <a href="index.html#journal">Mood Journal</a>
+                    <a href="index.html#resources">Crisis Help</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SereneMind. Made with care for your wellbeing.</p>
+                <p class="disclaimer">This website is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Nav toggle
+        document.getElementById('navToggle').addEventListener('click', () => {
+            document.getElementById('navLinks').classList.toggle('open');
+        });
+
+        // Category filter
+        document.querySelectorAll('.category-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                const category = tab.dataset.category;
+                document.querySelectorAll('.blog-card').forEach(card => {
+                    if (category === 'all' || card.dataset.category === category) {
+                        card.style.display = 'flex';
+                        card.style.opacity = '0';
+                        setTimeout(() => card.style.opacity = '1', 50);
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Newsletter
+        document.getElementById('newsletterForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for subscribing! You\'ll receive our weekly newsletter soon.');
+            e.target.reset();
+        });
+    </script>
+</body>
+</html>
